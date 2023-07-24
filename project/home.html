@@ -1,195 +1,1118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-    crossorigin="anonymous"
-  />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
-    <link rel="stylesheet" href="home.css">
-    
-                
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- <link rel="stylesheet" href="path/to/owl.theme.default.min.css"> -->
+  <!-- <script src="path/to/owl.carousel.min.js"></script> -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="Section2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="owl.carousel.css">
+
+
+
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="top">
-      <div class="navbar">
-            
-              <div class="nav1">
-                  <img src="images/logo.jpg">
-  
-              </div>
-              <div class="nav2">
-                  <div class="menu1"><span>Menu 1</span></div>
-                  <div class="menu2"><span>Menu 2</span></div>
-                  <div class="menu3"><select >
-                      <option value="Tr">TR</option>
-                      <option value="Ar">Ar</option>
-                      <option value="Fr">Fr</option>
-                    </select>
-                  </div>
-  
-  
-              </div>
-              <div class="nav3">
-                  <div class="nav-3">
-  
-                      <div class="wishlist">
-                          Wishlist
-                          <span></span>
-                      </div>
-                      <div class="wish-list">
-                          <div class="close">
-                              <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                                  <g clip-path="url(#clip0_751_23)">
-                                  <path d="M7.19726 1.73919L7.61711 2.15903L5.09804 4.6781L7.61711 7.19717L7.19726 7.61701L4.67819 5.09795L2.15913 7.61701L1.73928 7.19717L4.25835 4.6781L1.73928 2.15903L2.15913 1.73919L4.67819 4.25826L7.19726 1.73919Z" fill="white"/>
-                                  </g>
-                                  <defs>
-                                  <clipPath id="clip0_751_23">
-                                  <rect width="9.5" height="9.5" fill="white" transform="translate(0.224609 0.224976)"/>
-                                  </clipPath>
-                                  </defs>
-                                  </svg></span>
-                          </div>
-                          
-                          <div class="lists">
-                              <div class="list">
-                                  <div class="image">
-                                      <img src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
-                                  </div>
-                                  <div class="name">
-                                      The Witcher
-                                  </div>
-                                  <div class="delete">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
-                                          <g clip-path="url(#clip0_751_34)">
-                                            <path d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z" fill="white"/>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_751_34">
-                                              <rect width="7" height="7" fill="white"/>
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                  </div>
-      
-                              </div>
-                              <div class="list">
-                                  <div class="image">
-                                      <img src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
-                                  </div>
-                                  <div class="name">
-                                      The Witcher
-                                  </div>
-                                  <div class="delete">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
-                                          <g clip-path="url(#clip0_751_34)">
-                                            <path d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z" fill="white"/>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_751_34">
-                                              <rect width="7" height="7" fill="white"/>
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                  </div>
-      
-                              </div>  
-                              <div class="list">
-                                  <div class="image">
-                                      <img src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
-                                  </div>
-                                  <div class="name">
-                                      The Witcher
-                                  </div>
-                                  <div class="delete">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
-                                          <g clip-path="url(#clip0_751_34)">
-                                            <path d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z" fill="white"/>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_751_34">
-                                              <rect width="7" height="7" fill="white"/>
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                  </div>
-      
-                              </div> 
-                               <div class="list">
-                                  <div class="image">
-                                      <img src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
-                                  </div>
-                                  <div class="name">
-                                      The Witcher
-                                  </div>
-                                  <div class="delete">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
-                                          <g clip-path="url(#clip0_751_34)">
-                                            <path d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z" fill="white"/>
-                                          </g>
-                                          <defs>
-                                            <clipPath id="clip0_751_34">
-                                              <rect width="7" height="7" fill="white"/>
-                                            </clipPath>
-                                          </defs>
-                                        </svg>
-                                  </div>
-      
-                              </div>
-      
-                            
-      
-                          </div>
-                          <div class="volume">
-                            <div class="ring">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
-                                <circle cx="20.822" cy="20.822" r="20.3882" stroke="url(#paint0_linear_12_4604)" stroke-width="0.867584"/>
-                                <defs>
-                                <linearGradient id="paint0_linear_12_4604" x1="20.822" y1="0" x2="20.822" y2="41.644" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#0CF9EF"/>
-                                <stop offset="1" stop-color="#D78BFE"/>
-                                </linearGradient>
-                                </defs>
-                                </svg>
-  
-                            </div>
-                            <div class="voice">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
-                                <path d="M2.86768 7.78276V12.6973H6.14402L10.2394 16.7927V3.68734L6.14402 7.78276H2.86768ZM13.9253 10.24C13.9253 8.79024 13.0899 7.54523 11.8776 6.9391V13.5327C13.0899 12.9348 13.9253 11.6898 13.9253 10.24ZM11.8776 3.05664V4.74396C14.2448 5.44837 15.973 7.64352 15.973 10.24C15.973 12.8365 14.2448 15.0317 11.8776 15.7361V17.4234C15.1621 16.678 17.6112 13.7457 17.6112 10.24C17.6112 6.73433 15.1621 3.80201 11.8776 3.05664Z" fill="white"/>
-                                </svg>
-  
-                            </div>
-  
-                          </div>
-                      </div>
-                      <div class="sign">
-                          Sign In
-                      </div>
-                  </div>
-  
-            
-              
+  <!-- <div class="top"> -->
+
+  <div class="navbar">
+    <div class="left-nav">
+      <div class="nav1">
+        <img src="images/logo.jpg">
+
+      </div>
+      <div class="nav2">
+        <div class="menu1"><span>Menu 1</span></div>
+        <div class="menu2"><span>Menu 2</span></div>
+        <div class="menu3"><select>
+            <option value="Tr">TR</option>
+            <option value="Ar">Ar</option>
+            <option value="Fr">Fr</option>
+          </select>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="nav3">
+      <div class="nav-3">
+        <div class="two">
+          <div class="wishlist">
+            Wishlist
+            <span></span>
           </div>
+          <div class="close">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <g clip-path="url(#clip0_751_23)">
+                  <path
+                    d="M7.19726 1.73919L7.61711 2.15903L5.09804 4.6781L7.61711 7.19717L7.19726 7.61701L4.67819 5.09795L2.15913 7.61701L1.73928 7.19717L4.25835 4.6781L1.73928 2.15903L2.15913 1.73919L4.67819 4.25826L7.19726 1.73919Z"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_751_23">
+                    <rect width="9.5" height="9.5" fill="white" transform="translate(0.224609 0.224976)" />
+                  </clipPath>
+                </defs>
+              </svg></span>
+          </div>
+          <div class="sign">
+            Sign In
+          </div>
+
+        </div>
+        <div class="wish-list">
+
+
+          <div class="lists">
+            <div class="list">
+              <div class="image">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+              </div>
+              <div class="name">
+                The Witcher
+              </div>
+              <div class="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
+                  <g clip-path="url(#clip0_751_34)">
+                    <path
+                      d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_751_34">
+                      <rect width="7" height="7" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+            </div>
+            <div class="list">
+              <div class="image">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+              </div>
+              <div class="name">
+                The Witcher
+              </div>
+              <div class="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
+                  <g clip-path="url(#clip0_751_34)">
+                    <path
+                      d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_751_34">
+                      <rect width="7" height="7" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+            </div>
+            <div class="list">
+              <div class="image">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+              </div>
+              <div class="name">
+                The Witcher
+              </div>
+              <div class="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
+                  <g clip-path="url(#clip0_751_34)">
+                    <path
+                      d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_751_34">
+                      <rect width="7" height="7" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+            </div>
+            <div class="list">
+              <div class="image">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/422d/8536/79037229ce5a7f2f6fabccb1a2717f45?Expires=1690761600&Signature=S5V6qza7BwTIr7oKAvRKs4jODFWT0FV3VjRPcmQxQvuzlXIK1fI4GjlSj2LnU-1ePhyT6-IIFkvnh-TSfWzHDuGvjlGcc9qknSIPRJkkhCHaFN0OEWbNh-CnwVD4f4a4mUJ9IXNKPqn8lAziQ-T6mGOIxcQBYNbP6LaNZVoA4YIDCZfae-HEM6-S4oxPzrQk8tGJkITr51fN3j3PK1psw5fv-hVyGcW6Pt8W4nPB2ARNDk~9lND5Sxd9JyYxkrBnmMAI3Rfrs5PZXXa0qXy5XcUuMotP3FhxH-9f-bZneab8vFY-SVbfxOnOUhfMVdGacj36p1h4o1i4fBRt9FrrsA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+              </div>
+              <div class="name">
+                The Witcher
+              </div>
+              <div class="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
+                  <g clip-path="url(#clip0_751_34)">
+                    <path
+                      d="M5.13808 1.11574L5.44744 1.4251L3.59128 3.28125L5.44744 5.1374L5.13808 5.44676L3.28192 3.59061L1.42577 5.44676L1.11641 5.1374L2.97256 3.28125L1.11641 1.4251L1.42577 1.11574L3.28192 2.97189L5.13808 1.11574Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_751_34">
+                      <rect width="7" height="7" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+
+            </div>
+
+
+
+          </div>
+          <div class="volume">
+            <div class="ring">
+              <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+                <circle cx="20.822" cy="20.822" r="20.3882" stroke="url(#paint0_linear_12_4604)"
+                  stroke-width="0.867584" />
+                <defs>
+                  <linearGradient id="paint0_linear_12_4604" x1="20.822" y1="0" x2="20.822" y2="41.644"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#0CF9EF" />
+                    <stop offset="1" stop-color="#D78BFE" />
+                  </linearGradient>
+                </defs>
+              </svg>
+
+            </div>
+            <div class="voice">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <path
+                  d="M2.86768 7.78276V12.6973H6.14402L10.2394 16.7927V3.68734L6.14402 7.78276H2.86768ZM13.9253 10.24C13.9253 8.79024 13.0899 7.54523 11.8776 6.9391V13.5327C13.0899 12.9348 13.9253 11.6898 13.9253 10.24ZM11.8776 3.05664V4.74396C14.2448 5.44837 15.973 7.64352 15.973 10.24C15.973 12.8365 14.2448 15.0317 11.8776 15.7361V17.4234C15.1621 16.678 17.6112 13.7457 17.6112 10.24C17.6112 6.73433 15.1621 3.80201 11.8776 3.05664Z"
+                  fill="white" />
+              </svg>
+
+            </div>
+
+          </div>
+        </div>
+
       </div>
-      <div class="section1">
-          
+
+
+
+    </div>
+  </div>
+  <div class="section1">
+    <img src="images/header.jpg">
+  </div>
+  <!-- </div> -->
+
+  <div class="section2">
+    <section class="swiper mySwiper">
+
+      <div class="swiper-wrapper">
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
       </div>
-    </div>
-    
-    <div class="section2">
-      <iframe src="Section2.html"></iframe>
+      <div class="swiper-button-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="76" height="73" viewBox="0 0 76 73" fill="none">
+          <ellipse cx="38" cy="36.5" rx="38" ry="36.5" transform="matrix(-1 0 0 1 76 0)" fill="black" fill-opacity="0.5"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M44 48.191L32.1139 36.5L44 24.809L42.164 23L28.475 36.5068L42.164 50L44 48.191Z" fill="white"/>
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="76" height="73" viewBox="0 0 76 73" fill="none">
+          <ellipse cx="38" cy="36.5" rx="38" ry="36.5" fill="black" fill-opacity="0.5"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M32 48.191L43.8861 36.5L32 24.809L33.836 23L47.525 36.5068L33.836 50L32 48.191Z" fill="white"/>
+        </svg>
+      </div>
+    </section>
 
-    </div>
+
+  </div>
+  <div class="section2">
+    <section class="swiper mySwiper">
+
+      <div class="swiper-wrapper">
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
 
 
-    </div>
-    
-    <script src="home.js"></script>
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/3671/ec69/a5ca6bac2c1630fb47538fe2e8569a0f?Expires=1691366400&Signature=IS1s4XbPw4JJcEQPjixg0AL71Ew-0uf2hObOXc-w8cu4AA5SqvzMTrLtCD7Pw-hA98mQxkj-tVnYN~QOLSgMRaGWZuM8fe4phDkvuQ45EtoRnr1P9a953GzrhueGwiTAYnqavcGiRMJw8I6gHUJAOtLplZPs0uMlBvJeaIS~rVgsARBf8cs~h5ndxNj1e~B2qVRSI~T~4VWg0uzo4dhmAjR~lvlGP6VLU5kTBVhKzSyFvFQgpM9EC-ETOFIn27W2IkvdwWw-VSSPfl5S7h9Mse4GzbegJ9j5l8jL71O6OENvW~Hh8l~gyerHtA1U5EQDVuC5MG7LMTXI2tYOZ02QMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt="card image">
+          </div>
+
+          <div class="card__content">
+            <div class="name-date">
+
+              <div class="film-name">Brave New World</div>
+              <div class="date">
+                2018-1h 23m
+              </div>
+
+
+            </div>
+            <div class="play-fav">
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M3.01653 9.90536C1.25798 7.56063 1.84416 4.04352 4.77508 2.87116C7.706 1.69879 9.46455 4.04352 10.0507 5.21589C10.6369 4.04352 12.9817 1.69879 15.9126 2.87116C18.8435 4.04352 18.8435 7.56063 17.0849 9.90536C15.3264 12.2501 10.0507 16.9396 10.0507 16.9396C10.0507 16.9396 4.77508 12.2501 3.01653 9.90536Z"
+                    stroke="white" stroke-width="1.17237" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </div>
+              <div class="play">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                  <path
+                    d="M13.5334 12.1386L16.5089 9.1631L6.89819 3.76155C6.26123 3.41742 5.66452 3.36912 5.14127 3.74545L13.5334 12.1386ZM17.016 15.6222L20.1092 13.8824C20.713 13.5443 21.044 13.0653 21.044 12.534C21.044 12.0037 20.713 11.5238 20.1102 11.1857L17.3099 9.6129L14.1573 12.7645L17.016 15.6222ZM4.62406 4.477C4.55966 4.67523 4.52344 4.8966 4.52344 5.13911V19.936C4.52344 20.3194 4.60796 20.6494 4.76091 20.9121L12.9085 12.7635L4.62406 4.477ZM13.5334 13.3873L5.43107 21.4907C5.58604 21.55 5.75307 21.5812 5.92917 21.5812C6.24312 21.5812 6.57015 21.4887 6.90322 21.3035L16.2161 16.074L13.5334 13.3873Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+              <div class="fav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M19.0597 20.3659C18.9684 20.3661 18.8779 20.3481 18.7935 20.313C18.7092 20.2779 18.6326 20.2265 18.5683 20.1616L2.72827 4.22714C2.59874 4.09681 2.52629 3.92035 2.52686 3.7366C2.52743 3.55285 2.60097 3.37685 2.7313 3.24732C2.86164 3.11778 3.03809 3.04533 3.22184 3.0459C3.4056 3.04647 3.5816 3.12001 3.71113 3.25035L19.5507 19.1839C19.6475 19.2809 19.7133 19.4044 19.7399 19.5388C19.7665 19.6731 19.7526 19.8124 19.7 19.9389C19.6475 20.0654 19.5586 20.1735 19.4446 20.2495C19.3307 20.3255 19.1967 20.366 19.0597 20.3659Z"
+                    fill="white" />
+                  <path
+                    d="M16.7697 4.43237C14.6875 4.43237 13.3059 5.71182 12.5733 6.64056C11.8424 5.71052 10.4591 4.43237 8.3769 4.43237C7.92226 4.43206 7.47004 4.49843 7.03467 4.62938L8.24354 5.8179C9.20735 5.8179 10.227 6.20758 11.012 6.97265C11.3844 7.33538 11.7017 7.75068 11.9537 8.20533C12.0113 8.32016 12.0998 8.4167 12.2091 8.48416C12.3185 8.55162 12.4444 8.58735 12.5729 8.58735C12.7014 8.58735 12.8273 8.55162 12.9366 8.48416C13.046 8.4167 13.1344 8.32016 13.192 8.20533C13.4442 7.75001 13.7618 7.33412 14.1346 6.97092C14.9196 6.20758 15.8059 5.8179 16.7697 5.8179C18.638 5.8179 20.1738 7.3909 20.1933 9.32501C20.2166 11.6497 19.2082 13.6353 17.7088 15.3659L18.6887 16.3518C18.8186 16.2028 18.9355 16.0643 19.0411 15.9361C20.773 13.8254 21.6022 11.6583 21.5788 9.31159C21.5519 6.61977 19.3944 4.43237 16.7697 4.43237Z"
+                    fill="white" />
+                  <path
+                    d="M12.5721 19.6731C8.77833 17.0973 4.90838 13.8539 4.95168 9.32494C4.95444 9.05675 4.98697 8.7897 5.04867 8.5287L3.95583 7.4259C3.70493 8.02233 3.57257 8.6619 3.56615 9.30892C3.54277 11.6565 4.37279 13.8236 6.10383 15.9335C6.91653 16.9237 8.38995 18.5075 11.7927 20.8174C12.0222 20.9747 12.2939 21.0589 12.5721 21.0589C12.8503 21.0589 13.122 20.9747 13.3514 20.8174C14.2325 20.2195 14.9838 19.6701 15.628 19.1674L14.6469 18.1798C13.9684 18.7032 13.2687 19.199 12.5721 19.6731Z"
+                    fill="white" />
+                </svg>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="swiper-button-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="76" height="73" viewBox="0 0 76 73" fill="none">
+          <ellipse cx="38" cy="36.5" rx="38" ry="36.5" transform="matrix(-1 0 0 1 76 0)" fill="black" fill-opacity="0.5"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M44 48.191L32.1139 36.5L44 24.809L42.164 23L28.475 36.5068L42.164 50L44 48.191Z" fill="white"/>
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="76" height="73" viewBox="0 0 76 73" fill="none">
+          <ellipse cx="38" cy="36.5" rx="38" ry="36.5" fill="black" fill-opacity="0.5"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M32 48.191L43.8861 36.5L32 24.809L33.836 23L47.525 36.5068L33.836 50L32 48.191Z" fill="white"/>
+        </svg>
+      </div>
+    </section>
+
+
+  </div>
+
+
+
+  </div>
+  <!-- <script src="jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="owl.carousel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <script src="home.js"></script>
 </body>
+
 </html>

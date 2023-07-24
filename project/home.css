@@ -1,15 +1,17 @@
-.top{
-    height: 78vh;
-}
+
 .navbar{
-    position: relative;
+    position: absolute;
     width: 100%;
     display: flex;
     top: 45px;
     z-index: 1;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-left: 8%;
+    align-items: flex-start;
 }
+.left-nav{  
+      display: flex;
+    align-items: center;}
 .nav1{
     margin-left: 122px;
     margin-right: 49px;
@@ -17,12 +19,15 @@
 .section1{
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh;
+   
     background-size: contain;
     background-image: url('images/header.jpg');
     z-index: -1;
     top: 0;
-    position: absolute;
+    position: relative;
+}
+.section1 img{
+    width: 100%;
 }
 .nav2 {
     display: flex;
@@ -73,12 +78,12 @@ line-height: 120%; /* 16.8px */
     background: rgba(255, 255, 255, 0.16);
 }
 .nav3{
-    /* margin-left: 572px; */
+    margin-right: 8%;
     display: flex;
     color: white;
         display: flex;
     color: white;
-    width: 44%;
+
     justify-content: flex-end;
 }
 .nav3 .wishlist{
@@ -117,12 +122,19 @@ box-shadow: -1.2999999523162842px 1.2999999523162842px 4px 0px rgba(248, 0, 0, 0
 }
 .nav3 .nav-3{
     display: flex;
+    flex-direction: column;
 
+}
+.nav-3 .wish-list{
+    display: flex;
+    position: relative;
+    right: 41%;
+    bottom: 0%;
 }
 .nav-3 .lists{
     overflow: auto;
     width: 256px;
-    position: absolute;
+    /* position: absolute; */
     top: 62px;
     right: 25%;
     height: 211px;
@@ -140,6 +152,9 @@ box-shadow: -1.2999999523162842px 1.2999999523162842px 4px 0px rgba(248, 0, 0, 0
     margin: 12px;
     border-radius: 2.751px;
     background: #1F1F1F;
+}
+.nav-3 .two{
+    display: flex;
 }
 .nav-3 .lists .list .image {
     width: 70px;
@@ -159,9 +174,9 @@ box-shadow: -1.2999999523162842px 1.2999999523162842px 4px 0px rgba(248, 0, 0, 0
     align-items: center;
 }
 .close{
-    position: absolute;
-    top: 40px;
-    right: 358px;
+    position: relative;
+    top: 26px;
+    right: 9%;
     z-index: 2;
 }
  .close span{
@@ -181,9 +196,11 @@ backdrop-filter: blur(2.375px);
 .volume{
     display: flex;
     align-items: center;
-    position: absolute;
-    margin-top: 12%;
-    margin-left: 4%;
+    justify-content: center;
+    position: relative;
+    left: 9%;
+    top: 15%;
+  
     justify-content: center;
 }
 .volume .voice{

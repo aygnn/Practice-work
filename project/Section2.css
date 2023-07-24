@@ -1,0 +1,173 @@
+body{
+    font-family: Gilroy-Bold;
+}
+.section2{
+    background: #1F1F1F;
+    background-color: #1F1F1F;
+    /* height: 100vh; */
+}
+
+.swiper{
+    width: 100%;
+  }
+  .swiper-3d .swiper-wrapper {
+    transform-style: revert !important;
+}
+  .swiper-wrapper{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card{
+    width: 20em !important;
+    box-shadow: 0 0 2em rgba(0,0,0,0);
+    background-color: transparent;
+    padding: 2em 1em;
+    display: flex;
+    margin: 1px 0em;
+    border-color: transparent  ;
+  }
+  
+  .swiper-slide:not(.swiper-slide-active){
+    filter: blur(0.4px);
+}
+.date{
+    display: none;
+}
+.swiper-slide-active   .card__image{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  /* border-radius: 0px; */
+}
+.swiper-slide-active .date{
+    display: block;
+    color: #FFF;
+font-family: Gilroy-Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 14.4px */
+}
+.name-date{
+    margin-top: 22px;
+}
+.swiper-slide-active .name-date{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-fav{
+    display: none;
+}
+.swiper-slide-active .play-fav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.swiper-slide-active .fav{
+    display: flex;
+width: 34.105px;
+height: 34.105px;
+padding: 8.526px 7.675px 6.821px 7.672px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 34.105px;
+background: radial-gradient(107.32% 141.42% at 0% 0%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+box-shadow: -2.062026023864746px -2.062026023864746px 103.10130310058594px 0px rgba(255, 255, 255, 0.02) inset;
+backdrop-filter: blur(4.263156890869141px);
+}
+.swiper-slide-active .play{
+    display: flex;
+width: 42px;
+height: 42px;
+padding: 9.45px 7.35px 8.4px 10.5px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 42px;
+background: radial-gradient(107.32% 141.42% at 0% 0%, #0CF9F0 0%, #D686FF 100%);
+box-shadow: -2.5393476486206055px -2.5393476486206055px 126.9673843383789px 0px rgba(255, 255, 255, 0.02) inset;
+backdrop-filter: blur(5.250000476837158px);
+}
+.swiper-slide-active .card__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    height: 149px;
+    width: 296px;
+    border-bottom-left-radius: 6.583px;
+    border-bottom-right-radius: 6.583px;
+    background: linear-gradient(169.15deg, rgb(255 255 255 / 0%) 0%, rgb(190 189 191 / 40%) 96.79%), radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: -2.244035243988037px -2.244035243988037px 112.2017822265625px 0px rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(7.5px);
+  }
+  .card__image{
+    width: 297px;
+    height: 170px;
+    border-radius: 8px;
+    /* border: 5px solid var(--color);
+    padding: 3px;
+    margin-bottom: 2em; */
+  }
+  
+  .card__image img{
+    width: 100%;
+    height: 100%;
+   
+    object-fit: cover;
+  }
+  
+  .card__content{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  
+  .card__title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+  }
+  
+  .card__name{
+    color: var(--color);
+  }
+  
+  .card__text{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1em 0;
+  }
+  
+  .card__btn{
+    /* background-color: var(--color); */
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+  }
+  .swiper-button-prev{
+    color: transparent !important;
+    width: 76px !important;
+    height: 73px !important;
+  }
+  .swiper-button-next {
+    color: transparent !important;
+    width: 76px !important;
+    height: 73px !important;
+  }
