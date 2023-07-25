@@ -66,10 +66,13 @@ line-height: 120%; /* 14.4px */
 .swiper-slide-active .play-fav{
     display: flex;
     align-items: center;
+    cursor: pointer;
+
     gap: 10px;
 }
 .swiper-slide-active .fav{
     display: flex;
+    cursor: pointer;
 width: 34.105px;
 height: 34.105px;
 padding: 8.526px 7.675px 6.821px 7.672px;
@@ -84,6 +87,8 @@ backdrop-filter: blur(4.263156890869141px);
 .swiper-slide-active .play{
     display: flex;
 width: 42px;
+cursor: pointer;
+
 height: 42px;
 padding: 9.45px 7.35px 8.4px 10.5px;
 justify-content: center;
