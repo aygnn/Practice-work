@@ -44,6 +44,7 @@ body{
     background: rgba(255, 255, 255, 0.16);
 }
 .nav2 div {
+    cursor: pointer;
     color: #FFF;
 text-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
 font-family: Gilroy-Medium;
