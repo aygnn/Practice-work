@@ -244,7 +244,7 @@ backdrop-filter: blur(2.375px);
 .responsive{
     display: none;
     left: -100%;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
 
 }
 .show{
@@ -297,8 +297,17 @@ backdrop-filter: blur(2.375px);
         margin-left: 53px;
     }
 }
+@media (max-width:820px){
+    .left-nav .nav1{
+        margin-left: 53px;
+    }
+    .navbar .nav3{
+        margin-right: 8%;
+    }
+}
 
-@media (max-width:412px){
+
+@media (max-width:540px){
     .nav3{
         display: none;
     }
@@ -314,10 +323,10 @@ backdrop-filter: blur(2.375px);
         color: white;
     margin-right: 23px;
     }
-    .responsive{
+    /* .responsive{
         display: block;
        
       
 
-    }
+    } */
 }

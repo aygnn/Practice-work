@@ -70,6 +70,6 @@
   
 $(document).ready(function(){
   $('.burger').click(function(){
-    $('.responsive').toggleClass('.show')
+    $('.responsive').toggle('.show')
   })
 })
